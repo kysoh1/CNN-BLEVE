@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.6",
+    "heartbeatAt": "2022-11-23T08:56:36.902347",
+    "startedAt": "2022-11-23T08:56:35.880492",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Coding Projects\\CNN_bleve\\scripts\\train.py",
+    "codePath": "scripts\\train.py",
+    "git": {
+        "remote": "https://github.com/IT-gMA/CNN_bleve.git",
+        "commit": "5a589ff47901ed9dd255127c6abacc4f8e2e898b"
+    },
+    "email": "kysoh01@gmail.com",
+    "root": "C:/Coding Projects/CNN_bleve",
+    "host": "KY-PC",
+    "username": "kysoh",
+    "executable": "C:\\Users\\kysoh\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 163.44969940185547,
+        "used": 161.04931259155273
+    },
+    "gpu": "NVIDIA GeForce GTX 960",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 960",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.867687225341797
+    }
+}

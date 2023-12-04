@@ -1,0 +1,22 @@
+C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "C:\Coding Projects\CNN_bleve\scripts\train.py", line 269, in <module>
+    main(seed)
+  File "C:\Coding Projects\CNN_bleve\scripts\train.py", line 198, in main
+    model = create_model().to(DEVICE)
+  File "C:\Coding Projects\CNN_bleve\scripts\model.py", line 37, in create_model
+    nn.Linear(16, 1)).cuda()
+  File "C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 747, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 639, in _apply
+    module._apply(fn)
+  File "C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 662, in _apply
+    param_applied = fn(param)
+  File "C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 747, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\kysoh\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\cuda\__init__.py", line 221, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

@@ -1,0 +1,31 @@
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:       Test/accuracy █▁
+wandb:           Test/loss ▁█
+wandb:           Test/mape ▁█
+wandb:           Test/rmse ▁█
+wandb:      Train/accuracy ▁▅▅▅▇▄▇▅▅▇▅▇▆▇▅▆█▇▇▇▇▇▇▇██▇▇█▇█▇████████
+wandb:          Train/loss █▃▂▃▁▄▁█▂▂▂▃▂▁▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            Train/lr █████████████████████████████████▁▁▁▁▁▁▁
+wandb:          Train/mape █▄▄▄▂▅▂▄▄▂▄▂▃▂▄▃▁▂▂▂▂▂▂▂▁▁▂▂▁▂▁▂▁▁▁▁▁▁▁▁
+wandb:          Train/rmse █▅▃▅▂▅▂█▄▃▃▄▃▂▃▂▂▂▂▃▂▂▁▁▂▁▂▂▂▂▁▁▁▂▁▁▁▁▁▁
+wandb: Validation/accuracy ▁▂▅▂▁▂▆▃▆▇▃▇▄▄███▇█▆██▇▇██▇█▇███████████
+wandb:     Validation/loss █▃▂▃▂▃▂▂▁▁▃▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     Validation/mape █▇▄▇█▇▃▆▃▂▆▂▅▅▁▁▁▂▁▃▁▁▂▂▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:     Validation/rmse █▃▄▄▂▄▂▃▁▂▅▂▃▂▁▁▁▂▁▂▁▁▂▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:       Test/accuracy 93.57264
+wandb:           Test/loss 0.00137
+wandb:           Test/mape 0.06427
+wandb:           Test/rmse 0.0268
+wandb:      Train/accuracy 97.86393
+wandb:          Train/loss 1e-05
+wandb:            Train/lr 0.0
+wandb:          Train/mape 0.02136
+wandb:          Train/rmse 0.00352
+wandb: Validation/accuracy 93.48973
+wandb:     Validation/loss 0.00056
+wandb:     Validation/mape 0.0651
+wandb:     Validation/rmse 0.02053

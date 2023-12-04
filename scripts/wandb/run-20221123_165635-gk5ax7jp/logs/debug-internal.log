@@ -1,0 +1,166 @@
+2022-11-23 16:56:35,902 INFO    StreamThr :21556 [internal.py:wandb_internal():88] W&B internal server running at pid: 21556, started at: 2022-11-23 16:56:35.901484
+2022-11-23 16:56:35,905 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: status
+2022-11-23 16:56:35,909 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: status
+2022-11-23 16:56:35,911 DEBUG   SenderThread:21556 [sender.py:send():303] send: header
+2022-11-23 16:56:35,912 INFO    WriterThread:21556 [datastore.py:open_for_write():75] open: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\run-gk5ax7jp.wandb
+2022-11-23 16:56:35,964 DEBUG   SenderThread:21556 [sender.py:send():303] send: run
+2022-11-23 16:56:36,754 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: check_version
+2022-11-23 16:56:36,755 INFO    SenderThread:21556 [dir_watcher.py:__init__():216] watching files in: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files
+2022-11-23 16:56:36,755 INFO    SenderThread:21556 [sender.py:_start_run_threads():928] run started: gk5ax7jp with start time 1669193795.900485
+2022-11-23 16:56:36,755 DEBUG   SenderThread:21556 [sender.py:send():303] send: summary
+2022-11-23 16:56:36,756 INFO    SenderThread:21556 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 16:56:36,756 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: check_version
+2022-11-23 16:56:36,825 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: run_start
+2022-11-23 16:56:36,863 DEBUG   HandlerThread:21556 [system_info.py:__init__():31] System info init
+2022-11-23 16:56:36,863 DEBUG   HandlerThread:21556 [system_info.py:__init__():46] System info init done
+2022-11-23 16:56:36,863 INFO    HandlerThread:21556 [system_monitor.py:start():150] Starting system monitor
+2022-11-23 16:56:36,864 INFO    SystemMonitor:21556 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-23 16:56:36,864 INFO    HandlerThread:21556 [system_monitor.py:probe():168] Collecting system info
+2022-11-23 16:56:36,870 INFO    SystemMonitor:21556 [interfaces.py:start():168] Started cpu
+2022-11-23 16:56:36,872 INFO    SystemMonitor:21556 [interfaces.py:start():168] Started disk
+2022-11-23 16:56:36,872 INFO    SystemMonitor:21556 [interfaces.py:start():168] Started gpu
+2022-11-23 16:56:36,873 INFO    SystemMonitor:21556 [interfaces.py:start():168] Started memory
+2022-11-23 16:56:36,902 DEBUG   HandlerThread:21556 [system_info.py:probe():195] Probing system
+2022-11-23 16:56:36,904 DEBUG   HandlerThread:21556 [system_info.py:_probe_git():180] Probing git
+2022-11-23 16:56:36,922 INFO    SystemMonitor:21556 [interfaces.py:start():168] Started network
+2022-11-23 16:56:37,114 DEBUG   HandlerThread:21556 [system_info.py:_probe_git():188] Probing git done
+2022-11-23 16:56:37,114 DEBUG   HandlerThread:21556 [system_info.py:probe():241] Probing system done
+2022-11-23 16:56:37,114 DEBUG   HandlerThread:21556 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.10.6', 'heartbeatAt': '2022-11-23T08:56:36.902347', 'startedAt': '2022-11-23T08:56:35.880492', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Coding Projects\\CNN_bleve\\scripts\\train.py', 'codePath': 'scripts\\train.py', 'git': {'remote': 'https://github.com/IT-gMA/CNN_bleve.git', 'commit': '5a589ff47901ed9dd255127c6abacc4f8e2e898b'}, 'email': 'kysoh01@gmail.com', 'root': 'C:/Coding Projects/CNN_bleve', 'host': 'KY-PC', 'username': 'kysoh', 'executable': 'C:\\Users\\kysoh\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 163.44969940185547, 'used': 161.04931259155273}, 'gpu': 'NVIDIA GeForce GTX 960', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 960', 'memory_total': 4294967296}], 'memory': {'total': 15.867687225341797}}
+2022-11-23 16:56:37,114 INFO    HandlerThread:21556 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-23 16:56:37,114 INFO    HandlerThread:21556 [system_monitor.py:probe():181] Publishing system info
+2022-11-23 16:56:37,114 DEBUG   HandlerThread:21556 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-23 16:56:37,115 DEBUG   HandlerThread:21556 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-23 16:56:37,118 INFO    HandlerThread:21556 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-23 16:56:37,196 DEBUG   SenderThread:21556 [sender.py:send():303] send: files
+2022-11-23 16:56:37,196 INFO    SenderThread:21556 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-23 16:56:37,211 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-23 16:56:37,212 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: stop_status
+2022-11-23 16:56:37,564 DEBUG   SenderThread:21556 [sender.py:send():303] send: telemetry
+2022-11-23 16:56:37,770 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-metadata.json
+2022-11-23 16:56:37,770 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-summary.json
+2022-11-23 16:56:37,770 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\output.log
+2022-11-23 16:56:37,771 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\requirements.txt
+2022-11-23 16:56:37,916 DEBUG   SenderThread:21556 [sender.py:send():303] send: exit
+2022-11-23 16:56:37,916 INFO    SenderThread:21556 [sender.py:send_exit():442] handling exit code: 1
+2022-11-23 16:56:37,916 INFO    SenderThread:21556 [sender.py:send_exit():444] handling runtime: 1
+2022-11-23 16:56:37,917 INFO    SenderThread:21556 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 16:56:37,917 INFO    SenderThread:21556 [sender.py:send_exit():450] send defer
+2022-11-23 16:56:37,918 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,918 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-23 16:56:37,918 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,919 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-23 16:56:37,919 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 1
+2022-11-23 16:56:37,919 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,919 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-23 16:56:37,919 INFO    HandlerThread:21556 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-23 16:56:37,921 DEBUG   SystemMonitor:21556 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-23 16:56:37,923 DEBUG   SystemMonitor:21556 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-23 16:56:37,923 DEBUG   SystemMonitor:21556 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-23 16:56:37,934 INFO    HandlerThread:21556 [interfaces.py:finish():173] Joined cpu
+2022-11-23 16:56:37,934 INFO    HandlerThread:21556 [interfaces.py:finish():173] Joined disk
+2022-11-23 16:56:37,990 INFO    HandlerThread:21556 [interfaces.py:finish():173] Joined gpu
+2022-11-23 16:56:37,990 INFO    HandlerThread:21556 [interfaces.py:finish():173] Joined memory
+2022-11-23 16:56:37,990 INFO    HandlerThread:21556 [interfaces.py:finish():173] Joined network
+2022-11-23 16:56:37,990 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,990 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-23 16:56:37,991 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 2
+2022-11-23 16:56:37,991 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,991 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-23 16:56:37,991 DEBUG   SenderThread:21556 [sender.py:send():303] send: stats
+2022-11-23 16:56:37,992 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,992 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-23 16:56:37,992 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 3
+2022-11-23 16:56:37,993 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,993 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-23 16:56:37,993 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,993 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-23 16:56:37,994 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 4
+2022-11-23 16:56:37,994 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,994 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-23 16:56:37,995 DEBUG   SenderThread:21556 [sender.py:send():303] send: summary
+2022-11-23 16:56:37,995 INFO    SenderThread:21556 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 16:56:37,996 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,996 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-23 16:56:37,996 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 5
+2022-11-23 16:56:37,996 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:37,996 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-23 16:56:37,997 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:37,997 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-23 16:56:38,213 INFO    Thread-22 :21556 [upload_job.py:push():143] Uploaded file C:\Users\kysoh\AppData\Local\Temp\tmpgilf2zziwandb\1mce0lpr-wandb-metadata.json
+2022-11-23 16:56:38,385 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 6
+2022-11-23 16:56:38,385 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:38,385 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-23 16:56:38,385 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:38,385 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-23 16:56:38,783 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-summary.json
+2022-11-23 16:56:38,783 INFO    Thread-17 :21556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\config.yaml
+2022-11-23 16:56:39,001 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 16:56:39,613 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 7
+2022-11-23 16:56:39,614 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 16:56:39,614 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:39,615 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-23 16:56:39,615 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:39,615 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-23 16:56:39,615 INFO    SenderThread:21556 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-23 16:56:39,788 INFO    SenderThread:21556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\output.log
+2022-11-23 16:56:39,788 INFO    SenderThread:21556 [dir_watcher.py:finish():392] scan: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files
+2022-11-23 16:56:39,789 INFO    SenderThread:21556 [dir_watcher.py:finish():406] scan save: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\config.yaml config.yaml
+2022-11-23 16:56:39,789 INFO    SenderThread:21556 [dir_watcher.py:finish():406] scan save: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\output.log output.log
+2022-11-23 16:56:39,792 INFO    SenderThread:21556 [dir_watcher.py:finish():406] scan save: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\requirements.txt requirements.txt
+2022-11-23 16:56:39,795 INFO    SenderThread:21556 [dir_watcher.py:finish():406] scan save: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-metadata.json wandb-metadata.json
+2022-11-23 16:56:39,796 INFO    SenderThread:21556 [dir_watcher.py:finish():406] scan save: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-summary.json wandb-summary.json
+2022-11-23 16:56:39,797 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 8
+2022-11-23 16:56:39,803 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:39,804 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-23 16:56:39,804 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:39,804 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-23 16:56:39,804 INFO    SenderThread:21556 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-23 16:56:40,010 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 16:56:40,010 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 16:56:40,914 INFO    Thread-25 :21556 [upload_job.py:push():143] Uploaded file C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\requirements.txt
+2022-11-23 16:56:41,013 INFO    Thread-24 :21556 [upload_job.py:push():143] Uploaded file C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\output.log
+2022-11-23 16:56:41,025 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 16:56:41,025 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 16:56:41,059 INFO    Thread-23 :21556 [upload_job.py:push():143] Uploaded file C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\config.yaml
+2022-11-23 16:56:41,345 INFO    Thread-26 :21556 [upload_job.py:push():143] Uploaded file C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\files\wandb-summary.json
+2022-11-23 16:56:41,561 INFO    Thread-16 (_thread_body):21556 [sender.py:transition_state():463] send defer: 9
+2022-11-23 16:56:41,561 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:41,561 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-23 16:56:41,562 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:41,562 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-23 16:56:41,562 INFO    SenderThread:21556 [file_pusher.py:join():173] waiting for file pusher
+2022-11-23 16:56:41,562 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 10
+2022-11-23 16:56:41,562 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:41,563 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-23 16:56:41,563 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:41,563 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-23 16:56:41,827 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 11
+2022-11-23 16:56:41,827 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:41,827 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-23 16:56:41,827 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:41,829 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-23 16:56:41,829 INFO    SenderThread:21556 [sender.py:transition_state():463] send defer: 12
+2022-11-23 16:56:41,829 DEBUG   SenderThread:21556 [sender.py:send():303] send: final
+2022-11-23 16:56:41,830 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 16:56:41,830 INFO    HandlerThread:21556 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-23 16:56:41,830 DEBUG   SenderThread:21556 [sender.py:send():303] send: footer
+2022-11-23 16:56:41,830 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: defer
+2022-11-23 16:56:41,830 INFO    SenderThread:21556 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-23 16:56:41,832 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 16:56:41,832 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 16:56:41,832 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: server_info
+2022-11-23 16:56:41,833 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 16:56:41,833 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-23 16:56:41,833 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 16:56:41,834 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-23 16:56:41,834 DEBUG   SenderThread:21556 [sender.py:send_request():317] send_request: server_info
+2022-11-23 16:56:43,189 INFO    MainThread:21556 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-23 16:56:43,190 INFO    MainThread:21556 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-23 16:56:43,190 INFO    MainThread:21556 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-23 16:56:43,191 DEBUG   HandlerThread:21556 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-23 16:56:43,192 INFO    HandlerThread:21556 [handler.py:finish():814] shutting down handler
+2022-11-23 16:56:43,843 INFO    WriterThread:21556 [datastore.py:close():279] close: C:\Coding Projects\CNN_bleve\scripts\wandb\run-20221123_165635-gk5ax7jp\run-gk5ax7jp.wandb
+2022-11-23 16:56:44,203 INFO    SenderThread:21556 [sender.py:finish():1331] shutting down sender
+2022-11-23 16:56:44,203 INFO    SenderThread:21556 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-23 16:56:44,203 INFO    SenderThread:21556 [file_pusher.py:join():173] waiting for file pusher
+2022-11-23 16:56:44,272 INFO    MainThread:21556 [internal.py:handle_exit():78] Internal process exited
